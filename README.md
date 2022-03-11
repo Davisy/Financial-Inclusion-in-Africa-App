@@ -1,7 +1,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/davisy/financial-inclusion-in-africa-app/app.py)
 ![MIT LICENSE](https://badgen.net//badge/license/MIT/green)   ![MAINTAINED BADGE](https://img.shields.io/badge/Maintained%3F-yes-green.svg) 
 
-# Swahili News Classifier Streamlit App
+# Financial Inclusion in Africa App
 A Data science app to predict who in Africa is most likely to have a bank account.
 
 <img src="https://ocdn.eu/pulscms-transforms/1/t1nk9kpTURBXy9mYmJkOTFkZDE3ZjA2NmFjNGZjMmU0ZjFjMmQxMmMwOC5qcGeSlQMAAM0Cpc0BfZMFzQMWzQGugaEwBQ" alt="screenshot of the Swahili News Classifier App" />
