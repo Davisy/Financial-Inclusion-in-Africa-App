@@ -162,4 +162,5 @@ if submit:
         )
 
 
-st.write("Developed with ❤️ by Davis David")
+url = "https://twitter.com/Davis_McDavid"
+st.write("Developed with ❤️ by [Davis David](%s)" % url)
