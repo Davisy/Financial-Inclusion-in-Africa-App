@@ -13,7 +13,7 @@ A simple app to predict who in Africa is most likely to have a bank account?.
 """
 )
 
-# form to collect news content
+# form to collect user information
 my_form = st.form(key="financial_form")
 country = my_form.selectbox("select country", ("Tanzania", "kenya", "Uganda", "Rwanda"))
 location_type = my_form.selectbox("select location", ("Rural", "Urban"))
