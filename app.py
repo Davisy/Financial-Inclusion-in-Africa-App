@@ -1,8 +1,8 @@
+#import packages 
 import streamlit as st
 import joblib
 import pandas as pd
 from os.path import dirname, join, realpath
-import joblib
 
 # add banner image
 st.header("Financial Inclusion in Africa")
@@ -95,10 +95,6 @@ with open(
 ) as f:
     one_hot_encoder = joblib.load(f)
 
-
-sentiments = {0: "Neutral", 1: "Positive", -1: "Negative"}
-
-
 @st.cache
 # function to clean and tranform the input
 def preprocessing_data(data, enc, scaler):
@@ -134,7 +130,7 @@ if submit:
         "job_type": job_type,
     }
 
-    # create a draframe
+    # create a dataframe
     data = pd.DataFrame(input, index=[0])
 
     # clean and transform input
